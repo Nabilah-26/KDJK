@@ -80,50 +80,20 @@
 </p>
 
 15. Pada bagian **Networking**, tekan tombol **Generate Domain** untuk membuat link situs.  
-16. 🎉 **Link Hosting Linkding berhasil dideploy!**
+16.  **Link Hosting Linkding berhasil dideploy!**
 
-
-
-
-
-
-
-
-
-## Cara Pemakaian
-
-- Tampilan aplikasi web
-1. Landing Page
-   ![Halaman utama](https://github.com/bunyamin88/Projek_KDJK_kel5_P1/blob/main/SS%20Web/Screenshot%202024-10-10%20140835.png)
-   Tampilan utama aplikasi web memberikan pengguna akses langsung ke fitur-fitur utama aplikasi. Pada halaman ini, pengguna dapat melihat menu navigasi, dan dari sana pengguna bisa mengakses berbagai bagian aplikasi seperti koleksi data dan lainnya.
-
-- Fungsi-fungsi utama
-2. Login
-   ![Halaman user](https://github.com/bunyamin88/Projek_KDJK_kel5_P1/blob/main/SS%20Web/Screenshot%202024-10-10%20142736.png)
-   Untuk dapat menggunakan fitur secara penuh, pengguna perlu melakukan login. Di halaman user settings ini, pengguna akan melakukan autentikasi, biasanya dengan username dan password yang telah ditentukan.
-   
-3. Collections
-   ![Halaman Collection](https://github.com/bunyamin88/Projek_KDJK_kel5_P1/blob/main/SS%20Web/Screenshot%202024-10-10%20191618.png)
-   xxx
-   
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
-4. Create New Data
-   ![membuat data 1](https://github.com/bunyamin88/Projek_KDJK_kel5_P1/blob/main/SS%20Web/Screenshot%202024-10-10%20192004.png)
-   ![membuat data 2](https://github.com/bunyamin88/Projek_KDJK_kel5_P1/blob/main/SS%20Web/Screenshot%202024-10-10%20192102.png)
-  xxx
-  
-5. Customize
-   ![Halaman kustomisasi](https://github.com/bunyamin88/Projek_KDJK_kel5_P1/blob/main/SS%20Web/Screenshot%202024-10-10%20191645.png)
-   Aplikasi ini memungkinkan pengguna untuk mengkustomisasi tampilan web sesuai dengan preferensi mereka. Pengguna dapat mengubah tema, tata letak, atau warna antarmuka aplikasi.
-   
-6. Shortcut
-    ![Shortcut](https://github.com/bunyamin88/Projek_KDJK_kel5_P1/blob/main/SS%20Web/Screenshot%202024-10-10%20191656.png)
-   xxxx
 
 **Tips Penggunaaan**: 
 Untuk memaksimalkan penggunaan aplikasi web ini, pastikan untuk login terlebih dahulu agar dapat mengakses semua fitur, serta gunakan shortcut untuk navigasi yang lebih cepat. Di bagian *Collections*, kelola data dengan cermat dan selalu simpan perubahan setelah mengedit. Jika baru mencoba fitur baru, gunakan data dummy terlebih dahulu agar data real tetap aman. Manfaatkan fitur kustomisasi tampilan, seperti *dark mode* atau pengaturan font, untuk kenyamanan penggunaan, terutama jika digunakan dalam waktu lama. Terakhir, pantau log aktivitas secara berkala untuk memantau perubahan atau aktivitas yang terjadi di aplikasi.
 
 ## Fitur/Penggunaan App
+<img width="1475" height="551" alt="image" src="https://github.com/user-attachments/assets/e5c2328f-ca04-4030-a28e-fec01795ce01" />
+### Login Page
+Pada halaman ini terdapat dua input utama dan satu tombol aksi:
+- Username – digunakan untuk memasukkan nama pengguna (contoh: rifat).
+- Password – kolom untuk memasukkan kata sandi.
+- Tombol Login – mengeksekusi proses autentikasi agar pengguna bisa masuk ke sistem.
+
 <img width="1519" height="740" alt="image" src="https://github.com/user-attachments/assets/5599a19f-83f2-4f64-8257-20a58e409e7d" />
 
 ### Bookmarks 
@@ -137,7 +107,7 @@ Setiap bookmark bisa:
 Ini menunjukkan bahwa fungsi CRUD (Create, Read, Update, Delete) dalam aplikasi Linkding berjalan normal.
 
 ### Kolom pencarian (search)
-“Search for words or #tags” disini kita bisa mengetik kata kunci atau tag seperti “tugas” atau “#2” untuk memfilter bookmark tertentu. Fitur ini membantu pengguna menemukan link dengan cepat tanpa harus scroll panjang.
+“Search for words or #tags” disini pengguna bisa mengetik kata kunci atau tag seperti “tugas” atau “#2” untuk memfilter bookmark tertentu. Fitur ini membantu pengguna menemukan link dengan cepat tanpa harus scroll panjang.
 
 ### Tags (kanan bawah)
 Terdapat dua tag aktif:
@@ -157,6 +127,65 @@ Menandakan bahwa aplikasi sudah siap menampilkan bookmark dalam jumlah banyak de
 - Settings: mengatur preferensi aplikasi (seperti API key, tampilan, dan backup data).
 - Logout: keluar dari akun pengguna.
 
+<img width="1456" height="844" alt="image" src="https://github.com/user-attachments/assets/9e3c3018-105b-4077-9c89-badd311e7529" />
+<img width="1038" height="235" alt="image" src="https://github.com/user-attachments/assets/03f9e630-0f42-4348-a5b1-fb592a511545" />
+### Add bookmark
+
+Halaman ini digunakan untuk menyimpan link atau tautan penting agar mudah diakses kembali di kemudian hari.
+Fungsinya mirip seperti “Save” atau “Bookmark” di browser, tetapi Linkding menyimpannya dalam satu sistem terorganisir, bisa diberi tag, deskripsi, dan status baca (read/unread).
+
+1. URL
+Kolom ini untuk menuliskan alamat situs web yang ingin disimpan. Setelah disimpan, Linkding akan menampilkan tautan tersebut di daftar bookmark.
+
+2. Tags
+Berfungsi memberi kategori atau label pada setiap bookmark. Tag membantu pengguna mengelompokkan dan mencari link dengan cepat. Ditulis tanpa tanda pagar (#), lalu cukup pisahkan dengan spasi.
+
+Contoh: kuliah referensi kdjk
+Maka Linkding akan otomatis membuat tag kuliah, referensi, dan kdjk.
+
+3. Title
+Judul dari link yang disimpan. Bisa otomatis diambil dari situs, atau diketik manual. Judul memudahkan identifikasi isi link tanpa harus membukanya.
+
+4. Description
+Tempat untuk menuliskan penjelasan singkat tentang isi link atau alasan menyimpannya.
+
+5. Notes (opsional)
+Dapat digunakan untuk menambahkan catatan pribadi seperti ringkasan atau ide penting dari link tersebut.
+
+6. Mark as Unread
+Jika dicentang, link akan ditandai sebagai belum dibaca (unread). Linkding menyediakan filter agar pengguna bisa menampilkan hanya link yang belum dibaca.
+
+7. Tombol Save & Cancel
+- Save → Menyimpan link ke dalam sistem Linkding.
+- Cancel → Membatalkan proses penyimpanan dan kembali ke halaman sebelumnya.
+
+<img width="273" height="268" alt="image" src="https://github.com/user-attachments/assets/80e58afa-9d67-432f-96b3-19914874e711" />
+### Menu bookmark
+berfungsi untuk mengelola dan memfilter tautan (link) yang sudah disimpan oleh pengguna.
+
+1. Active
+Menampilkan semua bookmark yang masih aktif atau belum diarsipkan. Ini adalah tampilan utama yang biasa digunakan untuk melihat semua link yang masih relevan.
+
+Contoh penggunaan:
+pengguna baru saja menyimpan artikel penting untuk tugas kuliah, dan ingin melihatnya lagi di daftar utama.
+
+2. Archived
+Berisi bookmark yang sudah disimpan tetapi tidak lagi dibutuhkan secara aktif. Cocok untuk menjaga tampilan utama tetap rapi tanpa menghapus link lama. Bookmark yang diarsipkan masih bisa dikembalikan ke status aktif jika dibutuhkan.
+
+Contoh penggunaan:
+Artikel yang sudah selesai dibaca atau digunakan dalam proyek, tetapi tetap ingin disimpan sebagai referensi.
+
+3. Unread
+Menampilkan bookmark yang sudah disimpan namun belum dibaca atau dibuka oleh pengguna. Fitur ini memudahkan pengguna untuk menyortir link yang perlu ditinjau nanti.
+
+Contoh penggunaan:
+Pengguna menandai beberapa artikel riset dengan “Mark as unread” supaya mudah ditemukan untuk dibaca nanti.
+
+4. Untagged
+Menampilkan semua bookmark yang belum memiliki tag (belum dikategorikan). Berguna untuk melakukan pengelolaan ulang agar semua link punya kategori/tag yang sesuai.
+
+Contoh penggunaan:
+Setelah menyimpan banyak link cepat-cepat, pengguna bisa buka menu ini untuk menambahkan tag pada yang belum dikategorikan.
 
 ## Pembahasan
 Linkding adalah aplikasi web open-source untuk mengelola dan menyimpan tautan atau bookmark. Fungsinya mirip seperti layanan “Pocket” atau “Raindrop.io”, namun Linkding bisa di-host secara mandiri di server pribadi atau platform seperti Docker dan Railway. Aplikasi ini memungkinkan pengguna untuk menyimpan, menandai (tag), mencari, dan mengelola koleksi tautan dari berbagai sumber dengan cepat dan efisien. Selain itu, Linkding memiliki antarmuka sederhana dan ringan, sehingga cocok digunakan untuk pengguna pribadi maupun tim kecil yang ingin mengarsipkan referensi daring mereka.
