@@ -88,6 +88,7 @@ Untuk memaksimalkan penggunaan aplikasi web ini, pastikan untuk login terlebih d
 
 ## Fitur/Penggunaan App
 <img width="1475" height="551" alt="image" src="https://github.com/user-attachments/assets/e5c2328f-ca04-4030-a28e-fec01795ce01" />
+
 ### Login Page
 Pada halaman ini terdapat dua input utama dan satu tombol aksi:
 - Username – digunakan untuk memasukkan nama pengguna (contoh: rifat).
@@ -129,6 +130,7 @@ Menandakan bahwa aplikasi sudah siap menampilkan bookmark dalam jumlah banyak de
 
 <img width="1456" height="844" alt="image" src="https://github.com/user-attachments/assets/9e3c3018-105b-4077-9c89-badd311e7529" />
 <img width="1038" height="235" alt="image" src="https://github.com/user-attachments/assets/03f9e630-0f42-4348-a5b1-fb592a511545" />
+
 ### Add bookmark
 
 Halaman ini digunakan untuk menyimpan link atau tautan penting agar mudah diakses kembali di kemudian hari.
@@ -160,6 +162,7 @@ Jika dicentang, link akan ditandai sebagai belum dibaca (unread). Linkding menye
 - Cancel → Membatalkan proses penyimpanan dan kembali ke halaman sebelumnya.
 
 <img width="273" height="268" alt="image" src="https://github.com/user-attachments/assets/80e58afa-9d67-432f-96b3-19914874e711" />
+
 ### Menu bookmark
 berfungsi untuk mengelola dan memfilter tautan (link) yang sudah disimpan oleh pengguna.
 
