@@ -4,7 +4,7 @@
 
 ## Sekilas Tentang Linkding
 
-Linkding adalah sebuah aplikasi bookmark  manager berbasis web yang gratis dan open-source. Aplikasi in dikembangkan untuk membantu pengguna menyimpan, mengelola, serta mengakses tautan favorit mereka dengan mudah dan efisien. Nama “Linkding” berasal dari gabungan kata link (tautan) dan ding (sebuah kata dalam bahasa jerman yang berarti “benda”), yang menggambarkan fungsinya sebagai alat untuk mengorganisasi tautan. Linkding juga mendukung impor dan ekspor bookmark dalam format HTML Netscape, serta bisa diakses melalui ekstensi peramban, bookmarklet, REST API, maupun diinstal sebagai Progressive WebApp (PWA). Dilengkapi dengan panel admin untuk mengelola data dan layanan mandiri pengguna, Linkding menjadi solusi ideal bagi siapa pun yang ingin menjaga koleksi tautan tetap teratur, aman, dan mudah diakses.
+**Linkding** adalah sebuah aplikasi bookmark  manager berbasis web yang gratis dan *open-source*. Aplikasi in dikembangkan untuk membantu pengguna menyimpan, mengelola, serta mengakses tautan favorit mereka dengan mudah dan efisien. Nama “Linkding” berasal dari gabungan kata *link* (tautan) dan *ding* (sebuah kata dalam bahasa jerman yang berarti “benda”), yang menggambarkan fungsinya sebagai alat untuk mengorganisasi tautan. Linkding juga mendukung impor dan ekspor bookmark dalam format HTML Netscape, serta bisa diakses melalui ekstensi peramban, bookmarklet, REST API, maupun diinstal sebagai *Progressive WebApp* (PWA). Dilengkapi dengan panel admin untuk mengelola data dan layanan mandiri pengguna, Linkding menjadi solusi ideal bagi siapa pun yang ingin menjaga koleksi tautan tetap teratur, aman, dan mudah diakses.
 
 
 ## Instalasi
