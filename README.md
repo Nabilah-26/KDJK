@@ -192,62 +192,73 @@ Contoh penggunaan:
 Setelah menyimpan banyak link cepat-cepat, pengguna bisa buka menu ini untuk menambahkan tag pada yang belum dikategorikan.
 
 ## Pembahasan
-Linkding adalah aplikasi web open-source untuk mengelola dan menyimpan tautan atau bookmark. Fungsinya mirip seperti layanan “Pocket” atau “Raindrop.io”, namun Linkding bisa di-host secara mandiri di server pribadi atau platform seperti Docker dan Railway. Aplikasi ini memungkinkan pengguna untuk menyimpan, menandai (tag), mencari, dan mengelola koleksi tautan dari berbagai sumber dengan cepat dan efisien. Selain itu, Linkding memiliki antarmuka sederhana dan ringan, sehingga cocok digunakan untuk pengguna pribadi maupun tim kecil yang ingin mengarsipkan referensi daring mereka.
+Linkding adalah sebuah aplikasi web yang bersifat open-source, dirancang untuk mengelola dan menyimpan tautan atau bookmark. Fungsinya serupa dengan layanan seperti "Pocket" atau "Raindrop. io", tetapi Linkding memungkinkan pengguna untuk dipasang di server mereka sendiri atau di lingkungan seperti Docker dan Railway. Aplikasi ini memberikan kemampuan kepada penggunanya untuk dengan cepat dan efisien menyimpan, memberi tag, mencari, dan mengatur koleksi tautan dari berbagai sumber. Selanjutnya, Linkding memiliki antarmuka yang sederhana dan ringan, menjadikannya pilihan tepat untuk individu maupun tim kecil yang ingin mengarsipkan referensi secara online.
 
-Menurut saya, Linkding merupakan solusi yang ideal untuk pengguna yang ingin mengelola bookmark secara mandiri tanpa harus bergantung pada layanan komersial.
-Aplikasi ini menawarkan keseimbangan antara kesederhanaan tampilan, kecepatan akses, dan fitur-fitur penting yang dibutuhkan pengguna sehari-hari seperti tag, pencarian cepat, serta ekstensi browser untuk menambahkan tautan langsung. Selain itu, karena bersifat open-source, aplikasi ini mudah dimodifikasi dan disesuaikan untuk kebutuhan pribadi. Namun bagi pengguna awam, proses instalasi awal bisa terasa cukup rumit karena melibatkan konfigurasi Docker, database, atau environment variable.
+Saya percaya bahwa Linkding adalah solusi yang cocok bagi pengguna yang ingin melakukan pengelolaan bookmark secara mandiri tanpa tergantung pada layanan berbayar. Aplikasi ini menciptakan keseimbangan antara kesederhanaan tampilan, kecepatan, dan fitur-fitur esensial yang diperlukan pengguna sehari-hari, seperti penandaan, pencarian cepat, serta ekstensi browser untuk menambah tautan secara langsung. Selain itu, dengan sifat open-source nya, aplikasi ini dapat dengan mudah disesuaikan dan dimodifikasi sesuai kebutuhan pengguna. Namun, pengguna yang kurang berpengalaman mungkin menemukan bahwa instalasi awal bisa menjadi agak rumit karena perlu konfigurasi Docker, database, atau variabel lingkungan.
 
 ### Kelebihan Linkding
 
-1. **Open-source dan gratis** – bisa digunakan tanpa biaya lisensi dan dikustomisasi sesuai kebutuhan.
-2. **Ringan dan cepat** – antarmuka minimalis membuat performanya efisien bahkan di server kecil.
-3. **Mendukung tag dan pencarian cepat** – memudahkan pengelompokan dan pencarian bookmark.
-4. **Bisa di-host sendiri (self-hosted)** – pengguna memiliki kendali penuh terhadap data tanpa risiko privasi dari pihak ketiga.
-5. **Ekstensi browser & API** – mendukung penambahan bookmark langsung dari Chrome, Firefox, atau melalui API.
-6. **Mendukung multi-user** – bisa digunakan bersama dalam satu server dengan akun berbeda.
-7. **Mendukung integrasi database** – kompatibel dengan SQLite untuk penggunaan sederhana dan PostgreSQL untuk skala lebih besar.
+1. **Open-source dan gratis** – Linkding dapat dimanfaatkan tanpa pembayaran lisensi serta disesuaikan berdasarkan kebutuhan pengguna.
+2. **Ringan dan responsif** – Tampilan Linkding yang sederhana membuat kinerjanya optimal bahkan pada server yang kecil.
+3. **Mendukung tagging dan pencarian cepat** – Linkding mempermudah dalam mengelompokkan dan mencari bookmark.
+4. **Dapat di-hosting sendiri (self-hosted)** – Linkding dapat dihosting oleh masing-masing user sehingga memiliki kontrol penuh atas data tanpa menghadapi risiko privasi dari pihak ketiga.
+5. **Ekstensi browser & API** – Linkding mendukung penambahan bookmark secara langsung dari Chrome, Firefox, atau melalui API.
+6. **Mendukung multi-user** – Linkding dapat diakses secara bersamaan di satu server dengan akun yang berbeda.
    
 ### Kekurangan Linkding
 
-1. **Proses instalasi cukup teknis** – butuh pemahaman dasar tentang Docker dan konfigurasi environment.
-2. **Tampilan antarmuka sangat sederhana** – meski ringan, tampilannya kurang menarik bagi sebagian pengguna.
-3. **Tidak memiliki fitur backup otomatis berbasis cloud** – pengguna harus melakukan backup manual.
-4. **Fitur kolaborasi terbatas** – tidak ada sistem berbagi bookmark real-time antar pengguna seperti di aplikasi berbasis cloud.
-5. **Kurang integrasi sosial** – tidak seperti Pocket atau Raindrop.io yang memungkinkan berbagi ke komunitas.
+1. **Proses instalasi cukup rumit** – Proses penginstalan Linkding memerlukan pengetahuan dasar mengenai Docker dan Konfigurasi environment.
+2. **Tampilan antarmuka sangat sederhana** –  Walaupun ringan, Desain Linkding kurang menarik bagi sebagian user.
+3. **Tidak dilengkapi dengan fitur pencadangan otomatis berbasis cloud** – Pengguna Linkding diwajibkan untuk melakukan pencadangan secara manual.
+4. **Fitur kolaborasi terbatas** – Dalam Linkding tidak terdapat sistem berbagi bookmark secara real-time antara pengguna seperti yang ada dalam aplikasi berbasis cloud.
+5. **Kurang adanya integrasi sosial** – Linkding tidak seperti Pocket atau Raindrop. io yang menyediakan opsi untuk berbagi dengan komunitas.
 
 ### Perbandingan Linkding dengan Aplikasi Web Sejenis
 
-#### 1. **Linkding vs Raindrop.io**
+#### 1. **Linkding vs Shaarli**
 
-| Aspek                            | Linkding                                                  | Raindrop.io                          |
-| -------------------------------- | --------------------------------------------------------- | ------------------------------------ |
-| **Hosting**                      | Self-hosted, bisa dijalankan di Railway, Docker, atau VPS | Berbasis cloud                       |
-| **Kustomisasi**                  | Bebas modifikasi karena open-source                       | Tidak bisa diubah (tertutup)         |
-| **Sinkronisasi antar perangkat** | Manual (via server sendiri)                               | Otomatis dan real-time               |
-| **Tampilan UI**                  | Minimalis, fungsional                                     | Sangat modern dan estetis            |
-| **Dukungan ekstensi browser**    | Ya                                                        | Ya                                   |
-| **Fitur kolaborasi**             | Terbatas                                                  | Ada fitur tim dan folder kolaboratif |
+| Aspek                         | Linkding                                                         | Shaarli                                                                 
+| ----------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------- 
+| **Hosting**                   | Self-hosted berbasis Docker, bisa dijalankan di Railway atau VPS | Self-hosted, sangat ringan dan bisa dijalankan langsung di server kecil 
+| **Bahasa Pemrograman**        | Python (Django)                                                  | PHP (tanpa framework besar)                                             
+| **Kustomisasi**               | Dapat dimodifikasi, memiliki API dan dukungan ekstensi           | Sangat mudah diubah karena struktur kode sederhana                      
+| **Kinerja**                   | Stabil, tapi butuh resource sedikit lebih tinggi                 | Sangat cepat dan ringan, cocok untuk server kecil                       
+| **Antarmuka (UI)**            | Minimalis dan modern                                             | Sangat sederhana, fokus pada fungsi dasar                               
+| **Fitur utama**               | Tagging, pencarian cepat, impor/ekspor bookmark, API             | Simpan dan kelola tautan pribadi dengan cepat                           
+| **Fitur kolaborasi**          | Terbatas (satu pengguna utama)                                   | Tidak mendukung multi-user secara default                               
+| **Dukungan ekstensi browser** | Ya, tersedia untuk Chrome & Firefox                              | Ya, tapi sangat dasar (manual save via bookmarklet)                     
 
-Kesimpulan: Pocket lebih ramah bagi pengguna umum, tapi Linkding unggul dalam hal privasi dan kendali data pribadi.
+Kesimpulan : Shaarli unggul dalam kecepatan dan kesederhanaan, sangat cocok untuk pengguna yang ingin bookmark pribadi tanpa ribet. Namun, Linkding menawarkan pengalaman yang lebih modern dengan fitur tambahan seperti tagging, API, dan antarmuka yang lebih rapi.
 
-#### 2. **Linkding vs Pocket**
+#### 2. **Linkding vs Linkwarden**
 
-| Aspek                    | Linkding                            | Pocket                                               |
-| ------------------------ | ----------------------------------- | ---------------------------------------------------- |
-| **Kepemilikan Data**     | Self-hosted (data milik pengguna)   | Data disimpan di server Pocket                       |
-| **Biaya**                | Gratis (open-source)                | Gratis dengan fitur terbatas, versi premium berbayar |
-| **Privasi**              | Sangat tinggi karena server pribadi | Bergantung pada kebijakan Pocket                     |
-| **Antarmuka**            | Sederhana dan ringan                | Lebih modern dan interaktif                          |
-| **Fitur tambahan**       | Tag, pencarian cepat, API           | Artikel rekomendasi, highlight teks, sinkronisasi    |
-| **Kemudahan penggunaan** | Butuh setup manual (Docker)         | Siap pakai (langsung registrasi)                     |
+| Aspek                      | Linkding                                | Linkwarden                                                 |
+| -------------------------- | --------------------------------------- | ---------------------------------------------------------- |
+| **Hosting**                | Self-hosted, bisa dijalankan via Docker | Self-hosted berbasis Node.js + MongoDB                     |
+| **Bahasa Pemrograman**     | Python (Django)                         | TypeScript / Next.js                                       |
+| **Kustomisasi**            | Cukup fleksibel, open-source            | Sangat fleksibel, open-source dan modular                  |
+| **Antarmuka (UI)**         | Sederhana dan minimalis                 | Lebih modern dan interaktif dengan tampilan bergaya Notion |
+| **Fitur kolaborasi**       | Terbatas (single user)                  | Ada fitur multi-user dan kolaboratif                       |
+| **Fitur tambahan**         | Tagging, impor/ekspor, API sederhana    | Simpan snapshot halaman (HTML, PDF, screenshot), anotasi   |
+| **Kinerja**                | Ringan, cepat pada deployment kecil     | Lebih berat karena fitur arsip dan visualisasi konten      |
+| **Privasi & kontrol data** | Penuh (karena self-hosted)              | Penuh (juga self-hosted)                                   |
+| **Kemudahan setup**        | Mudah dengan Docker                     | Setup lebih kompleks (butuh konfigurasi database dan env)  |
 
-Kesimpulan: Raindrop.io lebih unggul untuk kolaborasi dan tampilan modern, tetapi Linkding lebih cocok bagi pengguna yang mengutamakan privasi, kontrol penuh, dan kecepatan.
+Kesimpulan:
+Linkwarden unggul dalam fitur kolaboratif dan kemampuan arsip halaman (menyimpan konten, bukan hanya link). Namun, Linkding lebih ringan dan mudah dijalankan, cocok bagi pengguna yang menginginkan bookmark manager pribadi tanpa kompleksitas tambahan.
 
 ## Kesimpulan
+Proyek ini berhasil mendemonstrasikan bagaimana aplikasi Linkding dapat di-deploy dan dijalankan melalui platform Railway sebagai solusi manajemen bookmark berbasis web yang ringan, cepat, dan mudah digunakan. Linkding menghadirkan keseimbangan antara kesederhanaan dan fungsionalitas, dengan kemampuan untuk menyimpan, menandai (tagging), dan mencari tautan secara efisien. Selama proses implementasi, terbukti bahwa Linkding dapat berjalan dengan baik meskipun tanpa konfigurasi database kompleks, menjadikannya cocok untuk kebutuhan personal maupun kelompok kecil. Aplikasi ini juga menunjukkan keunggulan dalam hal kontrol data pribadi, karena pengguna dapat melakukan self-hosting dan sepenuhnya memiliki kendali atas datanya sendiri.
 
-Atomic Data menawarkan fleksibilitas tinggi dalam pengelolaan data terstruktur dengan skema yang fleksibel, validasi tipe yang ketat, serta kemampuan audit dan versioning yang baik. Namun, untuk kasus penggunaan tertentu seperti skala besar, data internal, atau data multimedia, aplikasi lain seperti RDF, JSON-LD, dan GraphQL mungkin lebih tepat digunakan. Atomic Data unggul dalam kasus di mana interoperabilitas, auditabilitas, dan konektivitas data terdesentralisasi sangat dibutuhkan.
+Dari sisi perbandingan, hasil analisis menunjukkan bahwa:
+1. Dibandingkan dengan Shaarli, Linkding lebih modern dan kaya fitur meskipun sedikit lebih berat.
+2. Dibandingkan dengan Linkwarden, Linkding lebih ringan dan mudah di-deploy, walaupun tidak sekompleks Linkwarden yang memiliki fitur kolaboratif dan arsip halaman.
 
+Secara keseluruhan, Linkding merupakan pilihan ideal bagi pengguna yang ingin memiliki sistem manajemen bookmark mandiri, aman, dan efisien tanpa ketergantungan pada layanan pihak ketiga. Walaupun memiliki keterbatasan pada sisi tampilan dan kolaborasi, Linkding menawarkan fondasi kuat untuk pengelolaan tautan berbasis privasi dan fleksibilitas penuh dalam pengembangan.
 
 ## Referensi
+https://hub.docker.com/r/sissbruecker/linkding
+https://linkwarden.app/
+https://github.com/shaarli/Shaarli
+https://linkding.link/
 
-(https://docs.atomicdata.dev/)
