@@ -21,8 +21,6 @@
 2. Lakukan **Sign In** menggunakan akun **GitHub** atau **Email**.  
 
 ---
-
-## Langkah 3–4
 <p align="center">
   <img src="images/step3.png" alt="Langkah 3" width="45%" />
   <img src="images/step4.png" alt="Langkah 4" width="45%" />
@@ -32,8 +30,6 @@
 4. Tekan tombol **Create New Project**.  
 
 ---
-
-## Langkah 5–6
 <p align="center">
   <img src="images/step5.png" alt="Langkah 5" width="45%" />
   <img src="images/step6.png" alt="Langkah 6" width="45%" />
@@ -43,8 +39,6 @@
 6. Masukkan `sissbruecker/linkding:1.44.1-plus-alpine` sebagai sumber image Linkding.  
 
 ---
-
-## Langkah 7–8
 <p align="center">
   <img src="images/step7.png" alt="Langkah 7" width="45%" />
   <img src="images/step8.png" alt="Langkah 8" width="45%" />
@@ -54,8 +48,6 @@
 8. Setelah image berhasil dimuat, buka tab **Variables**.  
 
 ---
-
-## Langkah 9–10
 <p align="center">
   <img src="images/step9.png" alt="Langkah 9" width="45%" />
   <img src="images/step10.png" alt="Langkah 10" width="45%" />
@@ -73,8 +65,6 @@
     ```
 
 ---
-
-## Langkah 11–12
 <p align="center">
   <img src="images/step11.png" alt="Langkah 11" width="45%" />
   <img src="images/step12.png" alt="Langkah 12" width="45%" />
@@ -84,8 +74,6 @@
 12. Setelah di-update, akan muncul notifikasi di kiri atas.  
 
 ---
-
-## Langkah 13–14
 <p align="center">
   <img src="images/step13.png" alt="Langkah 13" width="45%" />
   <img src="images/step14.png" alt="Langkah 14" width="45%" />
@@ -95,8 +83,6 @@
 14. Setelah proses deploy selesai, buka tab **Settings**.  
 
 ---
-
-## Langkah 15–16
 <p align="center">
   <img src="images/step15.png" alt="Langkah 15" width="45%" />
   <img src="images/step16.png" alt="Langkah 16" width="45%" />
