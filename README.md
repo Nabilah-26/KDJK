@@ -112,16 +112,16 @@ Aplikasi ini menawarkan keseimbangan antara kesederhanaan tampilan, kecepatan ak
   - **Skalabilitas untuk Dataset Besar**: RDF lebih cocok untuk skala besar, seperti Big Data dan dataset terdistribusi yang besar, karena memiliki alat-alat yang lebih matang untuk pengelolaan skala besar.
   - **Integrasi Semantik**: RDF mendukung integrasi semantik yang lebih baik, memungkinkan data dari berbagai sumber dapat dihubungkan dan dianalisis secara lebih mendalam.
 
-#### 3. **Atomic Data vs GraphQL**
+#### 3. **Linkding vs Pocket**
 
-- **Kelebihan Atomic Data:**
-  - **Auditabilitas & Versi**: Atomic Data menyediakan fitur versioning yang kuat dengan Atomic Commits, memungkinkan setiap perubahan disimpan sebagai transaksi yang dapat diaudit.
-  - **Data Terhubung dan Terdesentralisasi**: Dengan menggunakan URL, Atomic Data memudahkan untuk menghubungkan dataset yang tersebar di berbagai sumber tanpa membuat duplikasi data.
-
-- **Kelebihan GraphQL:**
-  - **Kontrol Pengguna atas Data**: GraphQL memungkinkan klien menentukan secara spesifik data apa yang mereka inginkan dari server, mengurangi pengambilan data yang berlebihan dan meningkatkan efisiensi.
-  - **Komunitas dan Ekosistem yang Lebih Besar**: GraphQL memiliki komunitas pengembang yang lebih luas dan berbagai alat bantu untuk mempermudah pengembangan API.
-  - **Kinerja**: GraphQL lebih cepat dalam menangani query data yang kompleks karena hanya memerlukan pengambilan data yang diminta, tanpa memvalidasi tipe atau mengikuti skema ketat seperti Atomic Data.
+| Aspek                    | Linkding                            | Pocket                                               |
+| ------------------------ | ----------------------------------- | ---------------------------------------------------- |
+| **Kepemilikan Data**     | Self-hosted (data milik pengguna)   | Data disimpan di server Pocket                       |
+| **Biaya**                | Gratis (open-source)                | Gratis dengan fitur terbatas, versi premium berbayar |
+| **Privasi**              | Sangat tinggi karena server pribadi | Bergantung pada kebijakan Pocket                     |
+| **Antarmuka**            | Sederhana dan ringan                | Lebih modern dan interaktif                          |
+| **Fitur tambahan**       | Tag, pencarian cepat, API           | Artikel rekomendasi, highlight teks, sinkronisasi    |
+| **Kemudahan penggunaan** | Butuh setup manual (Docker)         | Siap pakai (langsung registrasi)                     |
 
 ## Kesimpulan
 
