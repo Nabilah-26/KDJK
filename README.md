@@ -44,8 +44,8 @@
 8. Setelah image berhasil dimuat, buka tab **Variables**.  
 
 <p align="center">
-  <img src="images/step9.png" alt="Langkah 9" width="45%" />
-  <img src="images/step10.png" alt="Langkah 10" width="45%" />
+  <img src="https://github.com/user-attachments/assets/756851fd-bd69-4fc5-b614-7a9ec44fb369" alt="Langkah 9" width="45%" />
+  <img src="https://github.com/user-attachments/assets/6948a12d-ffc8-4ee9-8236-04e6e8ee70e0" alt="Langkah 10" width="45%" />
 </p>
 
 9. Tekan tombol **Raw Editor**.  
@@ -59,24 +59,23 @@
     LD_SUPERUSER_PASSWORD="987654321"
     ```
 <p align="center">
-  <img src="images/step11.png" alt="Langkah 11" width="45%" />
-  <img src="images/step12.png" alt="Langkah 12" width="45%" />
+  <img src="https://github.com/user-attachments/assets/28e2fc13-254d-4e80-8e01-620c78751afa" alt="Langkah 11" width="45%" />
+  <img src="https://github.com/user-attachments/assets/1cde559f-a0b0-47bb-b7d2-5133f238a1b5" alt="Langkah 12" width="45%" />
 </p>
-
 11. Tekan tombol **Update Variables** (berwarna biru).  
 12. Setelah di-update, akan muncul notifikasi di kiri atas.
     
 <p align="center">
-  <img src="images/step13.png" alt="Langkah 13" width="45%" />
-  <img src="images/step14.png" alt="Langkah 14" width="45%" />
+  <img src="https://github.com/user-attachments/assets/5ee5b21d-5087-4db3-bb61-e06a2b91ea2a" alt="Langkah 13" width="45%" />
+  <img src="https://github.com/user-attachments/assets/ecbbdcba-4e77-4272-80bd-06022ccf209b" alt="Langkah 14" width="45%" />
 </p>
 
 13. Tekan tombol **Deploy** pada notifikasi tersebut untuk menyimpan perubahan.  
 14. Setelah proses deploy selesai, buka tab **Settings**.  
 
 <p align="center">
-  <img src="images/step15.png" alt="Langkah 15" width="45%" />
-  <img src="images/step16.png" alt="Langkah 16" width="45%" />
+  <img src="https://github.com/user-attachments/assets/fabb5e67-94df-44ac-8294-52c298a66f31" alt="Langkah 15" width="45%" />
+  <img src="https://github.com/user-attachments/assets/70c94e7e-60d0-4214-a1e8-2ca01864b29b" alt="Langkah 16" width="45%" />
 </p>
 
 15. Pada bagian **Networking**, tekan tombol **Generate Domain** untuk membuat link situs.  
