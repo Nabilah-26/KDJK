@@ -36,8 +36,8 @@
 6. Masukkan `sissbruecker/linkding:1.44.1-plus-alpine` sebagai sumber image Linkding.  
 
 <p align="center">
-  <img src="images/step7.png" alt="Langkah 7" width="45%" />
-  <img src="images/step8.png" alt="Langkah 8" width="45%" />
+  <img src="https://github.com/user-attachments/assets/70510fe0-6bde-48a8-a627-568642952b0b" alt="Langkah 7" width="45%" />
+  <img src="https://github.com/user-attachments/assets/faa826f2-193e-494c-b995-4286e62e50eb" alt="Langkah 8" width="45%" />
 </p>
 
 7. Tunggu hingga Railway memuat Docker image Linkding.  
