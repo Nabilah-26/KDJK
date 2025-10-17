@@ -20,8 +20,8 @@
 2. Lakukan **Sign In** menggunakan akun **GitHub** atau **Email**.  
 
 <p align="center">
-  <img src="images/step3.png" alt="Langkah 3" width="45%" />
-  <img src="images/step4.png" alt="Langkah 4" width="45%" />
+  <img src="https://github.com/user-attachments/assets/0432ff09-9b0b-4009-b0e4-1c1e5eb277d9" alt="Langkah 3" width="45%" />
+  <img src="https://github.com/user-attachments/assets/86563b2c-eb4c-44db-b4ba-3c9d27c519fc" alt="Langkah 4" width="45%" />
 </p>
 
 3. Setelah berhasil masuk, buka **Dashboard** di kanan atas.  
