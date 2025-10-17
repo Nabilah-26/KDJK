@@ -7,36 +7,117 @@
 **Linkding** adalah sebuah aplikasi bookmark  manager berbasis web yang gratis dan *open-source*. Aplikasi in dikembangkan untuk membantu pengguna menyimpan, mengelola, serta mengakses tautan favorit mereka dengan mudah dan efisien. Nama “Linkding” berasal dari gabungan kata *link* (tautan) dan *ding* (sebuah kata dalam bahasa jerman yang berarti “benda”), yang menggambarkan fungsinya sebagai alat untuk mengorganisasi tautan. Linkding juga mendukung impor dan ekspor bookmark dalam format HTML Netscape, serta bisa diakses melalui ekstensi peramban, bookmarklet, REST API, maupun diinstal sebagai *Progressive WebApp* (PWA). Dilengkapi dengan panel admin untuk mengelola data dan layanan mandiri pengguna, Linkding menjadi solusi ideal bagi siapa pun yang ingin menjaga koleksi tautan tetap teratur, aman, dan mudah diakses.
 
 
-## Instalasi
+## Instalasi 
+# 🚀 Panduan Deploy Linkding di Railway
 
-code 1
-```
-int main{
-  //code
-}
-```
+<p align="center">
+  <img src="<img width="579" height="277" alt="image" src="https://github.com/user-attachments/assets/85a1d3bc-e34f-4809-ad12-67c7c0c0fc53" />
+" alt="Langkah 1" width="45%" />
+  <img src="images/step2.png" alt="Langkah 2" width="45%" />
+</p>
 
-code 2
-```
-services:
-  alpha:
-    env_file: ".env"
-    image: joepmeneer/atomic-server:develop
-    container_name: alpha
-    hostname: alpha
-    environment:
-      - ATOMIC_DOMAIN=k5p1.online
-      - ATOMIC_INITIALIZE=true
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - atomic-storage:/atomic-storage
-    restart: unless-stopped
 
-volumes:
-  atomic-storage:
-```
+1. Buka situs [**railway.com**](https://railway.com), kemudian tekan **Sign In** di kanan atas.  
+2. Lakukan **Sign In** menggunakan akun **GitHub** atau **Email**.  
+
+---
+
+## Langkah 3–4
+<p align="center">
+  <img src="images/step3.png" alt="Langkah 3" width="45%" />
+  <img src="images/step4.png" alt="Langkah 4" width="45%" />
+</p>
+
+3. Setelah berhasil masuk, buka **Dashboard** di kanan atas.  
+4. Tekan tombol **Create New Project**.  
+
+---
+
+## Langkah 5–6
+<p align="center">
+  <img src="images/step5.png" alt="Langkah 5" width="45%" />
+  <img src="images/step6.png" alt="Langkah 6" width="45%" />
+</p>
+
+5. Pilih opsi **Docker Image**.  
+6. Masukkan `sissbruecker/linkding:1.44.1-plus-alpine` sebagai sumber image Linkding.  
+
+---
+
+## Langkah 7–8
+<p align="center">
+  <img src="images/step7.png" alt="Langkah 7" width="45%" />
+  <img src="images/step8.png" alt="Langkah 8" width="45%" />
+</p>
+
+7. Tunggu hingga Railway memuat Docker image Linkding.  
+8. Setelah image berhasil dimuat, buka tab **Variables**.  
+
+---
+
+## Langkah 9–10
+<p align="center">
+  <img src="images/step9.png" alt="Langkah 9" width="45%" />
+  <img src="images/step10.png" alt="Langkah 10" width="45%" />
+</p>
+
+9. Tekan tombol **Raw Editor**.  
+10. Masukkan environment variable berikut:  
+
+    ```env
+    PORT="9090"
+    LD_BIND_ADDRESS="0.0.0.0"
+    LD_PORT="$PORT"
+    LD_SUPERUSER_NAME="kelompok9"
+    LD_SUPERUSER_PASSWORD="987654321"
+    ```
+
+---
+
+## Langkah 11–12
+<p align="center">
+  <img src="images/step11.png" alt="Langkah 11" width="45%" />
+  <img src="images/step12.png" alt="Langkah 12" width="45%" />
+</p>
+
+11. Tekan tombol **Update Variables** (berwarna biru).  
+12. Setelah di-update, akan muncul notifikasi di kiri atas.  
+
+---
+
+## Langkah 13–14
+<p align="center">
+  <img src="images/step13.png" alt="Langkah 13" width="45%" />
+  <img src="images/step14.png" alt="Langkah 14" width="45%" />
+</p>
+
+13. Tekan tombol **Deploy** pada notifikasi tersebut untuk menyimpan perubahan.  
+14. Setelah proses deploy selesai, buka tab **Settings**.  
+
+---
+
+## Langkah 15–16
+<p align="center">
+  <img src="images/step15.png" alt="Langkah 15" width="45%" />
+  <img src="images/step16.png" alt="Langkah 16" width="45%" />
+</p>
+
+15. Pada bagian **Networking**, tekan tombol **Generate Domain** untuk membuat link situs.  
+16. 🎉 **Link Hosting Linkding berhasil dideploy!**
+
+---
+
+💡 **Catatan:**  
+- Simpan semua gambar di folder `images/` di repositori kamu.  
+- Gunakan nama file sesuai urutan langkah (`step1.png`, `step2.png`, dst).  
+- Pastikan ukuran gambar tidak terlalu besar agar README mudah dimuat di GitHub.
+
+
+
+
+
+
+
 
 ## Cara Pemakaian
 
