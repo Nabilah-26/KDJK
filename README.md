@@ -71,6 +71,39 @@ volumes:
 **Tips Penggunaaan**: 
 Untuk memaksimalkan penggunaan aplikasi web ini, pastikan untuk login terlebih dahulu agar dapat mengakses semua fitur, serta gunakan shortcut untuk navigasi yang lebih cepat. Di bagian *Collections*, kelola data dengan cermat dan selalu simpan perubahan setelah mengedit. Jika baru mencoba fitur baru, gunakan data dummy terlebih dahulu agar data real tetap aman. Manfaatkan fitur kustomisasi tampilan, seperti *dark mode* atau pengaturan font, untuk kenyamanan penggunaan, terutama jika digunakan dalam waktu lama. Terakhir, pantau log aktivitas secara berkala untuk memantau perubahan atau aktivitas yang terjadi di aplikasi.
 
+## Fitur/Penggunaan App
+<img width="1519" height="740" alt="image" src="https://github.com/user-attachments/assets/5599a19f-83f2-4f64-8257-20a58e409e7d" />
+
+### Bookmarks 
+“tugassss” dan “nala” adalah dua bookmark yang berhasil ditambahkan oleh pengguna. Masing-masing bookmark memiliki tag berbeda (#2 dan #nala) untuk mengelompokkan topik.
+Setiap bookmark bisa:
+View: membuka link di tab baru.
+Edit: mengubah judul, tag, atau deskripsi.
+Archive: menandai link agar tidak tampil di daftar utama.
+Remove: menghapus link dari sistem.
+Ini menunjukkan bahwa fungsi CRUD (Create, Read, Update, Delete) dalam aplikasi Linkding berjalan normal.
+
+### Kolom pencarian (search)
+“Search for words or #tags” disini kita bisa mengetik kata kunci atau tag seperti “tugas” atau “#2” untuk memfilter bookmark tertentu. Fitur ini membantu pengguna menemukan link dengan cepat tanpa harus scroll panjang.
+
+### Tags (kanan bawah)
+Terdapat dua tag aktif:
+2
+Nala
+
+Tag ini muncul otomatis dari setiap bookmark yang dibuat. Klik salah satu tag (misalnya “2”), maka aplikasi hanya menampilkan bookmark dengan tag tersebut. Fungsi tag ini mirip seperti “kategori” di aplikasi pencatat atau bookmark online lainnya seperti Pocket atau Raindrop.
+
+### Bundles (kanan atas)
+Di sini muncul satu bundle bernama “nala”.
+Bundle digunakan untuk mengelompokkan beberapa tag menjadi satu grup besar. Contohnya, bundle “Kuliah” bisa berisi tag #tugas, #referensi, dan #deadline. Ini memudahkan pengguna untuk mengelola banyak tag sekaligus.
+
+### Navigasi dan antarmuka
+Di bawah daftar bookmark ada navigasi: “Previous | 1 | Next”
+Menandakan bahwa aplikasi sudah siap menampilkan bookmark dalam jumlah banyak dengan sistem pagination (halaman 1, 2, dst). Tombol di bagian atas:
+Add Bookmark: untuk menambah data baru.
+Settings: mengatur preferensi aplikasi (seperti API key, tampilan, dan backup data).
+Logout: keluar dari akun pengguna.
+
 
 ## Pembahasan
 Linkding adalah aplikasi web open-source untuk mengelola dan menyimpan tautan atau bookmark. Fungsinya mirip seperti layanan “Pocket” atau “Raindrop.io”, namun Linkding bisa di-host secara mandiri di server pribadi atau platform seperti Docker dan Railway. Aplikasi ini memungkinkan pengguna untuk menyimpan, menandai (tag), mencari, dan mengelola koleksi tautan dari berbagai sumber dengan cepat dan efisien. Selain itu, Linkding memiliki antarmuka sederhana dan ringan, sehingga cocok digunakan untuk pengguna pribadi maupun tim kecil yang ingin mengarsipkan referensi daring mereka.
