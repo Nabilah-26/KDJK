@@ -88,31 +88,19 @@ Aplikasi ini menawarkan keseimbangan antara kesederhanaan tampilan, kecepatan ak
 
 ### Perbandingan Atomic Data dengan Aplikasi Web Sejenis
 
-#### 1. **Atomic Data vs JSON-LD**
+#### 1. **Linkding vs Raindrop.io**
 
-- **Kelebihan Atomic Data:**
-  - **Skema Fleksibel**: Atomic Data memungkinkan penambahan properti apapun pada sumber daya, yang membuatnya lebih dinamis dalam menangani berbagai jenis data.
-  - **Validasi Tipe Data**: Atomic Data menggunakan tipe data yang terstruktur dengan baik, sehingga setiap nilai harus divalidasi berdasarkan tipe datanya, memberikan keamanan yang lebih tinggi.
-  - **Auditabilitas dan Versi**: Atomic Data mendukung Atomic Commits, yang memungkinkan penyimpanan setiap perubahan sebagai transaksi, memberikan kemampuan audit dan riwayat perubahan yang terperinci.
+| Aspek                            | Linkding                                                  | Raindrop.io                          |
+| -------------------------------- | --------------------------------------------------------- | ------------------------------------ |
+| **Hosting**                      | Self-hosted, bisa dijalankan di Railway, Docker, atau VPS | Berbasis cloud                       |
+| **Kustomisasi**                  | Bebas modifikasi karena open-source                       | Tidak bisa diubah (tertutup)         |
+| **Sinkronisasi antar perangkat** | Manual (via server sendiri)                               | Otomatis dan real-time               |
+| **Tampilan UI**                  | Minimalis, fungsional                                     | Sangat modern dan estetis            |
+| **Dukungan ekstensi browser**    | Ya                                                        | Ya                                   |
+| **Fitur kolaborasi**             | Terbatas                                                  | Ada fitur tim dan folder kolaboratif |
+Kesimpulan: Pocket lebih ramah bagi pengguna umum, tapi Linkding unggul dalam hal privasi dan kendali data pribadi.
 
-- **Kelebihan JSON-LD:**
-  - **Kompatibilitas**: JSON-LD lebih populer dan didukung oleh berbagai platform seperti Google dan aplikasi web yang membutuhkan data terstruktur untuk SEO.
-  - **Kemudahan Penggunaan**: JSON-LD lebih mudah digunakan dan diterapkan karena strukturnya yang lebih sederhana dan langsung dapat diintegrasikan dengan JSON biasa.
-  - **Kinerja**: JSON-LD lebih ringan karena tidak memerlukan validasi tipe yang ketat seperti Atomic Data, sehingga lebih cepat dalam memproses data yang sederhana.
-
-#### 2. **Atomic Data vs RDF (Resource Description Framework)**
-
-- **Kelebihan Atomic Data:**
-  - **Kemudahan Implementasi**: Atomic Data lebih mudah diimplementasikan dibandingkan RDF, karena strukturnya lebih modular dan sederhana.
-  - **Penggunaan URL untuk Dokumentasi**: Atomic Data menggunakan URL untuk mendokumentasikan properti, menjadikan data lebih mudah dimengerti tanpa memerlukan dokumentasi eksternal tambahan.
-  - **Fleksibilitas**: Atomic Data memberikan fleksibilitas yang lebih tinggi dalam menentukan skema dan properti yang dapat digunakan oleh berbagai sumber data.
-
-- **Kelebihan RDF:**
-  - **Standar Terbuka**: RDF telah menjadi standar untuk data terstruktur yang terhubung di web, dengan dukungan dari berbagai organisasi dan platform.
-  - **Skalabilitas untuk Dataset Besar**: RDF lebih cocok untuk skala besar, seperti Big Data dan dataset terdistribusi yang besar, karena memiliki alat-alat yang lebih matang untuk pengelolaan skala besar.
-  - **Integrasi Semantik**: RDF mendukung integrasi semantik yang lebih baik, memungkinkan data dari berbagai sumber dapat dihubungkan dan dianalisis secara lebih mendalam.
-
-#### 3. **Linkding vs Pocket**
+#### 2. **Linkding vs Pocket**
 
 | Aspek                    | Linkding                            | Pocket                                               |
 | ------------------------ | ----------------------------------- | ---------------------------------------------------- |
@@ -122,6 +110,7 @@ Aplikasi ini menawarkan keseimbangan antara kesederhanaan tampilan, kecepatan ak
 | **Antarmuka**            | Sederhana dan ringan                | Lebih modern dan interaktif                          |
 | **Fitur tambahan**       | Tag, pencarian cepat, API           | Artikel rekomendasi, highlight teks, sinkronisasi    |
 | **Kemudahan penggunaan** | Butuh setup manual (Docker)         | Siap pakai (langsung registrasi)                     |
+Kesimpulan: Raindrop.io lebih unggul untuk kolaborasi dan tampilan modern, tetapi Linkding lebih cocok bagi pengguna yang mengutamakan privasi, kontrol penuh, dan kecepatan.
 
 ## Kesimpulan
 
