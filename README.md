@@ -28,8 +28,8 @@
 4. Tekan tombol **Create New Project**.  
 
 <p align="center">
-  <img src="images/step5.png" alt="Langkah 5" width="45%" />
-  <img src="images/step6.png" alt="Langkah 6" width="45%" />
+  <img src="https://github.com/user-attachments/assets/2f4d8e08-64e2-41e1-84c7-7bccb2b664b6" alt="Langkah 5" width="45%" />
+  <img src="https://github.com/user-attachments/assets/10120648-94a5-46b5-b3f6-1b0d72d0a098" alt="Langkah 6" width="45%" />
 </p>
 
 5. Pilih opsi **Docker Image**.  
