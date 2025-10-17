@@ -82,10 +82,6 @@
 15. Pada bagian **Networking**, tekan tombol **Generate Domain** untuk membuat link situs.  
 16.  **Link Hosting Linkding berhasil dideploy!**
 
-
-**Tips Penggunaaan**: 
-Untuk memaksimalkan penggunaan aplikasi web ini, pastikan untuk login terlebih dahulu agar dapat mengakses semua fitur, serta gunakan shortcut untuk navigasi yang lebih cepat. Di bagian *Collections*, kelola data dengan cermat dan selalu simpan perubahan setelah mengedit. Jika baru mencoba fitur baru, gunakan data dummy terlebih dahulu agar data real tetap aman. Manfaatkan fitur kustomisasi tampilan, seperti *dark mode* atau pengaturan font, untuk kenyamanan penggunaan, terutama jika digunakan dalam waktu lama. Terakhir, pantau log aktivitas secara berkala untuk memantau perubahan atau aktivitas yang terjadi di aplikasi.
-
 ## Fitur/Penggunaan App
 <img width="1475" height="551" alt="image" src="https://github.com/user-attachments/assets/e5c2328f-ca04-4030-a28e-fec01795ce01" />
 
