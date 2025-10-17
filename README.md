@@ -93,7 +93,9 @@ Pada halaman ini terdapat dua input utama dan satu tombol aksi:
 
 <img width="1519" height="740" alt="image" src="https://github.com/user-attachments/assets/5599a19f-83f2-4f64-8257-20a58e409e7d" />
 
-### Bookmarks 
+### Homepage
+1. Bookmark
+
 “tugassss” dan “nala” adalah dua bookmark yang berhasil ditambahkan oleh pengguna. Masing-masing bookmark memiliki tag berbeda (#2 dan #nala) untuk mengelompokkan topik.
 Setiap bookmark bisa:
 - View: membuka link di tab baru.
@@ -103,21 +105,25 @@ Setiap bookmark bisa:
 
 Ini menunjukkan bahwa fungsi CRUD (Create, Read, Update, Delete) dalam aplikasi Linkding berjalan normal.
 
-### Kolom pencarian (search)
+2. Kolom pencarian (search)
+
 “Search for words or #tags” disini pengguna bisa mengetik kata kunci atau tag seperti “tugas” atau “#2” untuk memfilter bookmark tertentu. Fitur ini membantu pengguna menemukan link dengan cepat tanpa harus scroll panjang.
 
-### Tags (kanan bawah)
+4. Tags (kanan bawah)
+
 Terdapat dua tag aktif:
 - 2
 - Nala
 
 Tag ini muncul otomatis dari setiap bookmark yang dibuat. Klik salah satu tag (misalnya “2”), maka aplikasi hanya menampilkan bookmark dengan tag tersebut. Fungsi tag ini mirip seperti “kategori” di aplikasi pencatat atau bookmark online lainnya seperti Pocket atau Raindrop.
 
-### Bundles (kanan atas)
+5. Bundles (kanan atas)
+
 Di sini muncul satu bundle bernama “nala”.
 Bundle digunakan untuk mengelompokkan beberapa tag menjadi satu grup besar. Contohnya, bundle “Kuliah” bisa berisi tag #tugas, #referensi, dan #deadline. Ini memudahkan pengguna untuk mengelola banyak tag sekaligus.
 
-### Navigasi dan antarmuka
+4. Navigasi dan antarmuka
+
 Di bawah daftar bookmark ada navigasi: “Previous | 1 | Next”
 Menandakan bahwa aplikasi sudah siap menampilkan bookmark dalam jumlah banyak dengan sistem pagination (halaman 1, 2, dst). Tombol di bagian atas:
 - Add Bookmark: untuk menambah data baru.
