@@ -73,17 +73,17 @@ Untuk memaksimalkan penggunaan aplikasi web ini, pastikan untuk login terlebih d
 
 
 ## Pembahasan
-## Kelebihan Atomic Data
+### Kelebihan Atomic Data
 
 1. **Skema Fleksibel**: Atomic Data sangat cocok untuk data yang bervariasi, seperti wiki terstruktur atau data semantik, karena memungkinkan setiap objek memiliki atribut yang berbeda. Setiap sumber daya dapat memiliki properti yang berbeda sesuai kebutuhan.
 
-## Kekurangan Atomic Data
+### Kekurangan Atomic Data
 
 1. **Penggunaan Internal Saja**: Jika data hanya digunakan secara internal dan tidak perlu dibagikan kepada pihak luar, menggunakan Atomic Data justru dapat mempersulit proses karena sifatnya yang lebih kompleks dibandingkan format lain seperti JSON.
 
-## Perbandingan Atomic Data dengan Aplikasi Web Sejenis
+### Perbandingan Atomic Data dengan Aplikasi Web Sejenis
 
-### 1. **Atomic Data vs JSON-LD**
+#### 1. **Atomic Data vs JSON-LD**
 
 - **Kelebihan Atomic Data:**
   - **Skema Fleksibel**: Atomic Data memungkinkan penambahan properti apapun pada sumber daya, yang membuatnya lebih dinamis dalam menangani berbagai jenis data.
@@ -95,7 +95,7 @@ Untuk memaksimalkan penggunaan aplikasi web ini, pastikan untuk login terlebih d
   - **Kemudahan Penggunaan**: JSON-LD lebih mudah digunakan dan diterapkan karena strukturnya yang lebih sederhana dan langsung dapat diintegrasikan dengan JSON biasa.
   - **Kinerja**: JSON-LD lebih ringan karena tidak memerlukan validasi tipe yang ketat seperti Atomic Data, sehingga lebih cepat dalam memproses data yang sederhana.
 
-### 2. **Atomic Data vs RDF (Resource Description Framework)**
+#### 2. **Atomic Data vs RDF (Resource Description Framework)**
 
 - **Kelebihan Atomic Data:**
   - **Kemudahan Implementasi**: Atomic Data lebih mudah diimplementasikan dibandingkan RDF, karena strukturnya lebih modular dan sederhana.
@@ -107,7 +107,7 @@ Untuk memaksimalkan penggunaan aplikasi web ini, pastikan untuk login terlebih d
   - **Skalabilitas untuk Dataset Besar**: RDF lebih cocok untuk skala besar, seperti Big Data dan dataset terdistribusi yang besar, karena memiliki alat-alat yang lebih matang untuk pengelolaan skala besar.
   - **Integrasi Semantik**: RDF mendukung integrasi semantik yang lebih baik, memungkinkan data dari berbagai sumber dapat dihubungkan dan dianalisis secara lebih mendalam.
 
-### 3. **Atomic Data vs GraphQL**
+#### 3. **Atomic Data vs GraphQL**
 
 - **Kelebihan Atomic Data:**
   - **Auditabilitas & Versi**: Atomic Data menyediakan fitur versioning yang kuat dengan Atomic Commits, memungkinkan setiap perubahan disimpan sebagai transaksi yang dapat diaudit.
