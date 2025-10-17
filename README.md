@@ -62,6 +62,7 @@
   <img src="https://github.com/user-attachments/assets/28e2fc13-254d-4e80-8e01-620c78751afa" alt="Langkah 11" width="45%" />
   <img src="https://github.com/user-attachments/assets/1cde559f-a0b0-47bb-b7d2-5133f238a1b5" alt="Langkah 12" width="45%" />
 </p>
+
 11. Tekan tombol **Update Variables** (berwarna biru).  
 12. Setelah di-update, akan muncul notifikasi di kiri atas.
     
