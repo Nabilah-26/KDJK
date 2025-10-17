@@ -48,7 +48,7 @@
   <img src="https://github.com/user-attachments/assets/6948a12d-ffc8-4ee9-8236-04e6e8ee70e0" alt="Langkah 10" width="45%" />
 </p>
 
-9. Tekan tombol **Raw Editor**.  
+9. Tekan tombol **Raw Editor**.
 10. Masukkan environment variable berikut:  
 
     ```env
