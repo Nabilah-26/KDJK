@@ -77,10 +77,11 @@ Untuk memaksimalkan penggunaan aplikasi web ini, pastikan untuk login terlebih d
 ### Bookmarks 
 “tugassss” dan “nala” adalah dua bookmark yang berhasil ditambahkan oleh pengguna. Masing-masing bookmark memiliki tag berbeda (#2 dan #nala) untuk mengelompokkan topik.
 Setiap bookmark bisa:
-View: membuka link di tab baru.
-Edit: mengubah judul, tag, atau deskripsi.
-Archive: menandai link agar tidak tampil di daftar utama.
-Remove: menghapus link dari sistem.
+- View: membuka link di tab baru.
+- Edit: mengubah judul, tag, atau deskripsi.
+- Archive: menandai link agar tidak tampil di daftar utama.
+- Remove: menghapus link dari sistem.
+
 Ini menunjukkan bahwa fungsi CRUD (Create, Read, Update, Delete) dalam aplikasi Linkding berjalan normal.
 
 ### Kolom pencarian (search)
@@ -100,9 +101,9 @@ Bundle digunakan untuk mengelompokkan beberapa tag menjadi satu grup besar. Cont
 ### Navigasi dan antarmuka
 Di bawah daftar bookmark ada navigasi: “Previous | 1 | Next”
 Menandakan bahwa aplikasi sudah siap menampilkan bookmark dalam jumlah banyak dengan sistem pagination (halaman 1, 2, dst). Tombol di bagian atas:
-Add Bookmark: untuk menambah data baru.
-Settings: mengatur preferensi aplikasi (seperti API key, tampilan, dan backup data).
-Logout: keluar dari akun pengguna.
+- Add Bookmark: untuk menambah data baru.
+- Settings: mengatur preferensi aplikasi (seperti API key, tampilan, dan backup data).
+- Logout: keluar dari akun pengguna.
 
 
 ## Pembahasan
