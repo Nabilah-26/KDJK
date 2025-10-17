@@ -73,7 +73,12 @@ Untuk memaksimalkan penggunaan aplikasi web ini, pastikan untuk login terlebih d
 
 
 ## Pembahasan
-### Kelebihan Atomic Data
+Linkding adalah aplikasi web open-source untuk mengelola dan menyimpan tautan atau bookmark. Fungsinya mirip seperti layanan “Pocket” atau “Raindrop.io”, namun Linkding bisa di-host secara mandiri di server pribadi atau platform seperti Docker dan Railway. Aplikasi ini memungkinkan pengguna untuk menyimpan, menandai (tag), mencari, dan mengelola koleksi tautan dari berbagai sumber dengan cepat dan efisien. Selain itu, Linkding memiliki antarmuka sederhana dan ringan, sehingga cocok digunakan untuk pengguna pribadi maupun tim kecil yang ingin mengarsipkan referensi daring mereka.
+
+Menurut saya, Linkding merupakan solusi yang ideal untuk pengguna yang ingin mengelola bookmark secara mandiri tanpa harus bergantung pada layanan komersial.
+Aplikasi ini menawarkan keseimbangan antara kesederhanaan tampilan, kecepatan akses, dan fitur-fitur penting yang dibutuhkan pengguna sehari-hari seperti tag, pencarian cepat, serta ekstensi browser untuk menambahkan tautan langsung. Selain itu, karena bersifat open-source, aplikasi ini mudah dimodifikasi dan disesuaikan untuk kebutuhan pribadi. Namun bagi pengguna awam, proses instalasi awal bisa terasa cukup rumit karena melibatkan konfigurasi Docker, database, atau environment variable.
+
+### Kelebihan LINKDING
 
 1. **Skema Fleksibel**: Atomic Data sangat cocok untuk data yang bervariasi, seperti wiki terstruktur atau data semantik, karena memungkinkan setiap objek memiliki atribut yang berbeda. Setiap sumber daya dapat memiliki properti yang berbeda sesuai kebutuhan.
 
