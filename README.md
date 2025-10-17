@@ -11,16 +11,14 @@
 # 🚀 Panduan Deploy Linkding di Railway
 
 <p align="center">
-  <img src="<img width="579" height="277" alt="image" src="https://github.com/user-attachments/assets/85a1d3bc-e34f-4809-ad12-67c7c0c0fc53" />
-" alt="Langkah 1" width="45%" />
-  <img src="images/step2.png" alt="Langkah 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/b3558f1a-b66b-4077-85f0-88dded4af6a6" alt="Langkah 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/1c555b76-f3c7-4637-857b-b35d89ee3104" alt="Langkah 2" width="45%" />
 </p>
 
 
 1. Buka situs [**railway.com**](https://railway.com), kemudian tekan **Sign In** di kanan atas.  
 2. Lakukan **Sign In** menggunakan akun **GitHub** atau **Email**.  
 
----
 <p align="center">
   <img src="images/step3.png" alt="Langkah 3" width="45%" />
   <img src="images/step4.png" alt="Langkah 4" width="45%" />
@@ -29,7 +27,6 @@
 3. Setelah berhasil masuk, buka **Dashboard** di kanan atas.  
 4. Tekan tombol **Create New Project**.  
 
----
 <p align="center">
   <img src="images/step5.png" alt="Langkah 5" width="45%" />
   <img src="images/step6.png" alt="Langkah 6" width="45%" />
@@ -38,7 +35,6 @@
 5. Pilih opsi **Docker Image**.  
 6. Masukkan `sissbruecker/linkding:1.44.1-plus-alpine` sebagai sumber image Linkding.  
 
----
 <p align="center">
   <img src="images/step7.png" alt="Langkah 7" width="45%" />
   <img src="images/step8.png" alt="Langkah 8" width="45%" />
@@ -47,7 +43,6 @@
 7. Tunggu hingga Railway memuat Docker image Linkding.  
 8. Setelah image berhasil dimuat, buka tab **Variables**.  
 
----
 <p align="center">
   <img src="images/step9.png" alt="Langkah 9" width="45%" />
   <img src="images/step10.png" alt="Langkah 10" width="45%" />
@@ -63,17 +58,14 @@
     LD_SUPERUSER_NAME="kelompok9"
     LD_SUPERUSER_PASSWORD="987654321"
     ```
-
----
 <p align="center">
   <img src="images/step11.png" alt="Langkah 11" width="45%" />
   <img src="images/step12.png" alt="Langkah 12" width="45%" />
 </p>
 
 11. Tekan tombol **Update Variables** (berwarna biru).  
-12. Setelah di-update, akan muncul notifikasi di kiri atas.  
-
----
+12. Setelah di-update, akan muncul notifikasi di kiri atas.
+    
 <p align="center">
   <img src="images/step13.png" alt="Langkah 13" width="45%" />
   <img src="images/step14.png" alt="Langkah 14" width="45%" />
@@ -82,7 +74,6 @@
 13. Tekan tombol **Deploy** pada notifikasi tersebut untuk menyimpan perubahan.  
 14. Setelah proses deploy selesai, buka tab **Settings**.  
 
----
 <p align="center">
   <img src="images/step15.png" alt="Langkah 15" width="45%" />
   <img src="images/step16.png" alt="Langkah 16" width="45%" />
@@ -91,12 +82,6 @@
 15. Pada bagian **Networking**, tekan tombol **Generate Domain** untuk membuat link situs.  
 16. 🎉 **Link Hosting Linkding berhasil dideploy!**
 
----
-
-💡 **Catatan:**  
-- Simpan semua gambar di folder `images/` di repositori kamu.  
-- Gunakan nama file sesuai urutan langkah (`step1.png`, `step2.png`, dst).  
-- Pastikan ukuran gambar tidak terlalu besar agar README mudah dimuat di GitHub.
 
 
 
