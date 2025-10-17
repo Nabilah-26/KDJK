@@ -141,7 +141,9 @@ Kolom ini untuk menuliskan alamat situs web yang ingin disimpan. Setelah disimpa
 
 2. Tags
 Berfungsi memberi kategori atau label pada setiap bookmark. Tag membantu pengguna mengelompokkan dan mencari link dengan cepat. Ditulis tanpa tanda pagar (#), lalu cukup pisahkan dengan spasi.
+
 Contoh: kuliah referensi kdjk
+
 Maka Linkding akan otomatis membuat tag kuliah, referensi, dan kdjk.
 
 4. Title
