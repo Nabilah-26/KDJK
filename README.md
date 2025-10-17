@@ -78,15 +78,25 @@ Linkding adalah aplikasi web open-source untuk mengelola dan menyimpan tautan at
 Menurut saya, Linkding merupakan solusi yang ideal untuk pengguna yang ingin mengelola bookmark secara mandiri tanpa harus bergantung pada layanan komersial.
 Aplikasi ini menawarkan keseimbangan antara kesederhanaan tampilan, kecepatan akses, dan fitur-fitur penting yang dibutuhkan pengguna sehari-hari seperti tag, pencarian cepat, serta ekstensi browser untuk menambahkan tautan langsung. Selain itu, karena bersifat open-source, aplikasi ini mudah dimodifikasi dan disesuaikan untuk kebutuhan pribadi. Namun bagi pengguna awam, proses instalasi awal bisa terasa cukup rumit karena melibatkan konfigurasi Docker, database, atau environment variable.
 
-### Kelebihan LINKDING
+### Kelebihan Linkding
 
-1. **Skema Fleksibel**: Atomic Data sangat cocok untuk data yang bervariasi, seperti wiki terstruktur atau data semantik, karena memungkinkan setiap objek memiliki atribut yang berbeda. Setiap sumber daya dapat memiliki properti yang berbeda sesuai kebutuhan.
+1. **Open-source dan gratis** – bisa digunakan tanpa biaya lisensi dan dikustomisasi sesuai kebutuhan.
+2. **Ringan dan cepat** – antarmuka minimalis membuat performanya efisien bahkan di server kecil.
+3. **Mendukung tag dan pencarian cepat** – memudahkan pengelompokan dan pencarian bookmark.
+4. **Bisa di-host sendiri (self-hosted)** – pengguna memiliki kendali penuh terhadap data tanpa risiko privasi dari pihak ketiga.
+5. **Ekstensi browser & API** – mendukung penambahan bookmark langsung dari Chrome, Firefox, atau melalui API.
+6. **Mendukung multi-user** – bisa digunakan bersama dalam satu server dengan akun berbeda.
+7. **Mendukung integrasi database** – kompatibel dengan SQLite untuk penggunaan sederhana dan PostgreSQL untuk skala lebih besar.
+   
+### Kekurangan Linkding
 
-### Kekurangan Atomic Data
+1. **Proses instalasi cukup teknis** – butuh pemahaman dasar tentang Docker dan konfigurasi environment.
+2. **Tampilan antarmuka sangat sederhana** – meski ringan, tampilannya kurang menarik bagi sebagian pengguna.
+3. **Tidak memiliki fitur backup otomatis berbasis cloud** – pengguna harus melakukan backup manual.
+4. **Fitur kolaborasi terbatas** – tidak ada sistem berbagi bookmark real-time antar pengguna seperti di aplikasi berbasis cloud.
+5. **Kurang integrasi sosial** – tidak seperti Pocket atau Raindrop.io yang memungkinkan berbagi ke komunitas.
 
-1. **Penggunaan Internal Saja**: Jika data hanya digunakan secara internal dan tidak perlu dibagikan kepada pihak luar, menggunakan Atomic Data justru dapat mempersulit proses karena sifatnya yang lebih kompleks dibandingkan format lain seperti JSON.
-
-### Perbandingan Atomic Data dengan Aplikasi Web Sejenis
+### Perbandingan Linkding dengan Aplikasi Web Sejenis
 
 #### 1. **Linkding vs Raindrop.io**
 
