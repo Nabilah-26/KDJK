@@ -141,23 +141,22 @@ Kolom ini untuk menuliskan alamat situs web yang ingin disimpan. Setelah disimpa
 
 2. Tags
 Berfungsi memberi kategori atau label pada setiap bookmark. Tag membantu pengguna mengelompokkan dan mencari link dengan cepat. Ditulis tanpa tanda pagar (#), lalu cukup pisahkan dengan spasi.
-
 Contoh: kuliah referensi kdjk
 Maka Linkding akan otomatis membuat tag kuliah, referensi, dan kdjk.
 
-3. Title
+4. Title
 Judul dari link yang disimpan. Bisa otomatis diambil dari situs, atau diketik manual. Judul memudahkan identifikasi isi link tanpa harus membukanya.
 
-4. Description
+5. Description
 Tempat untuk menuliskan penjelasan singkat tentang isi link atau alasan menyimpannya.
 
-5. Notes (opsional)
+6. Notes (opsional)
 Dapat digunakan untuk menambahkan catatan pribadi seperti ringkasan atau ide penting dari link tersebut.
 
-6. Mark as Unread
+7. Mark as Unread
 Jika dicentang, link akan ditandai sebagai belum dibaca (unread). Linkding menyediakan filter agar pengguna bisa menampilkan hanya link yang belum dibaca.
 
-7. Tombol Save & Cancel
+8. Tombol Save & Cancel
 - Save → Menyimpan link ke dalam sistem Linkding.
 - Cancel → Membatalkan proses penyimpanan dan kembali ke halaman sebelumnya.
 
