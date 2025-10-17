@@ -105,9 +105,11 @@ Setiap bookmark bisa:
 
 Ini menunjukkan bahwa fungsi CRUD (Create, Read, Update, Delete) dalam aplikasi Linkding berjalan normal.
 
+
 2. Kolom pencarian (search)
 
 “Search for words or #tags” disini pengguna bisa mengetik kata kunci atau tag seperti “tugas” atau “#2” untuk memfilter bookmark tertentu. Fitur ini membantu pengguna menemukan link dengan cepat tanpa harus scroll panjang.
+
 
 4. Tags (kanan bawah)
 
@@ -117,10 +119,12 @@ Terdapat dua tag aktif:
 
 Tag ini muncul otomatis dari setiap bookmark yang dibuat. Klik salah satu tag (misalnya “2”), maka aplikasi hanya menampilkan bookmark dengan tag tersebut. Fungsi tag ini mirip seperti “kategori” di aplikasi pencatat atau bookmark online lainnya seperti Pocket atau Raindrop.
 
+
 5. Bundles (kanan atas)
 
 Di sini muncul satu bundle bernama “nala”.
 Bundle digunakan untuk mengelompokkan beberapa tag menjadi satu grup besar. Contohnya, bundle “Kuliah” bisa berisi tag #tugas, #referensi, dan #deadline. Ini memudahkan pengguna untuk mengelola banyak tag sekaligus.
+
 
 4. Navigasi dan antarmuka
 
@@ -142,6 +146,7 @@ Fungsinya mirip seperti “Save” atau “Bookmark” di browser, tetapi Linkdi
 
 Kolom ini untuk menuliskan alamat situs web yang ingin disimpan. Setelah disimpan, Linkding akan menampilkan tautan tersebut di daftar bookmark.
 
+
 2. Tags
 
 Berfungsi memberi kategori atau label pada setiap bookmark. Tag membantu pengguna mengelompokkan dan mencari link dengan cepat. Ditulis tanpa tanda pagar (#), lalu cukup pisahkan dengan spasi.
@@ -150,21 +155,26 @@ Contoh: kuliah referensi kdjk
 
 Maka Linkding akan otomatis membuat tag kuliah, referensi, dan kdjk.
 
+
 3. Title
 
 Judul dari link yang disimpan. Bisa otomatis diambil dari situs, atau diketik manual. Judul memudahkan identifikasi isi link tanpa harus membukanya.
+
 
 4. Description
 
 Tempat untuk menuliskan penjelasan singkat tentang isi link atau alasan menyimpannya.
 
+
 5. Notes (opsional)
 
 Dapat digunakan untuk menambahkan catatan pribadi seperti ringkasan atau ide penting dari link tersebut.
 
+
 6. Mark as Unread
 
 Jika dicentang, link akan ditandai sebagai belum dibaca (unread). Linkding menyediakan filter agar pengguna bisa menampilkan hanya link yang belum dibaca.
+
 
 7. Tombol Save & Cancel
 - Save → Menyimpan link ke dalam sistem Linkding.
@@ -182,6 +192,7 @@ Menampilkan semua bookmark yang masih aktif atau belum diarsipkan. Ini adalah ta
 Contoh penggunaan:
 pengguna baru saja menyimpan artikel penting untuk tugas kuliah, dan ingin melihatnya lagi di daftar utama.
 
+
 2. Archived
 
 Berisi bookmark yang sudah disimpan tetapi tidak lagi dibutuhkan secara aktif. Cocok untuk menjaga tampilan utama tetap rapi tanpa menghapus link lama. Bookmark yang diarsipkan masih bisa dikembalikan ke status aktif jika dibutuhkan.
@@ -189,12 +200,14 @@ Berisi bookmark yang sudah disimpan tetapi tidak lagi dibutuhkan secara aktif. C
 Contoh penggunaan:
 Artikel yang sudah selesai dibaca atau digunakan dalam proyek, tetapi tetap ingin disimpan sebagai referensi.
 
+
 3. Unread
 
 Menampilkan bookmark yang sudah disimpan namun belum dibaca atau dibuka oleh pengguna. Fitur ini memudahkan pengguna untuk menyortir link yang perlu ditinjau nanti.
 
 Contoh penggunaan:
 Pengguna menandai beberapa artikel riset dengan “Mark as unread” supaya mudah ditemukan untuk dibaca nanti.
+
 
 4. Untagged
 
