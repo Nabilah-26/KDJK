@@ -1,4 +1,4 @@
-# Projek_KDJK_kel5_P1
+# Project KDJK Kel9 P1
 
 # Aplikasi Web "LINKDING"
 
@@ -89,8 +89,8 @@ Ini menunjukkan bahwa fungsi CRUD (Create, Read, Update, Delete) dalam aplikasi 
 
 ### Tags (kanan bawah)
 Terdapat dua tag aktif:
-2
-Nala
+- 2
+- Nala
 
 Tag ini muncul otomatis dari setiap bookmark yang dibuat. Klik salah satu tag (misalnya “2”), maka aplikasi hanya menampilkan bookmark dengan tag tersebut. Fungsi tag ini mirip seperti “kategori” di aplikasi pencatat atau bookmark online lainnya seperti Pocket atau Raindrop.
 
