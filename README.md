@@ -98,6 +98,7 @@ Aplikasi ini menawarkan keseimbangan antara kesederhanaan tampilan, kecepatan ak
 | **Tampilan UI**                  | Minimalis, fungsional                                     | Sangat modern dan estetis            |
 | **Dukungan ekstensi browser**    | Ya                                                        | Ya                                   |
 | **Fitur kolaborasi**             | Terbatas                                                  | Ada fitur tim dan folder kolaboratif |
+
 Kesimpulan: Pocket lebih ramah bagi pengguna umum, tapi Linkding unggul dalam hal privasi dan kendali data pribadi.
 
 #### 2. **Linkding vs Pocket**
@@ -110,6 +111,7 @@ Kesimpulan: Pocket lebih ramah bagi pengguna umum, tapi Linkding unggul dalam ha
 | **Antarmuka**            | Sederhana dan ringan                | Lebih modern dan interaktif                          |
 | **Fitur tambahan**       | Tag, pencarian cepat, API           | Artikel rekomendasi, highlight teks, sinkronisasi    |
 | **Kemudahan penggunaan** | Butuh setup manual (Docker)         | Siap pakai (langsung registrasi)                     |
+
 Kesimpulan: Raindrop.io lebih unggul untuk kolaborasi dan tampilan modern, tetapi Linkding lebih cocok bagi pengguna yang mengutamakan privasi, kontrol penuh, dan kecepatan.
 
 ## Kesimpulan
