@@ -133,55 +133,65 @@ Halaman ini digunakan untuk menyimpan link atau tautan penting agar mudah diakse
 Fungsinya mirip seperti “Save” atau “Bookmark” di browser, tetapi Linkding menyimpannya dalam satu sistem terorganisir, bisa diberi tag, deskripsi, dan status baca (read/unread).
 
 1. URL
+
 Kolom ini untuk menuliskan alamat situs web yang ingin disimpan. Setelah disimpan, Linkding akan menampilkan tautan tersebut di daftar bookmark.
 
 2. Tags
+
 Berfungsi memberi kategori atau label pada setiap bookmark. Tag membantu pengguna mengelompokkan dan mencari link dengan cepat. Ditulis tanpa tanda pagar (#), lalu cukup pisahkan dengan spasi.
 
 Contoh: kuliah referensi kdjk
 
 Maka Linkding akan otomatis membuat tag kuliah, referensi, dan kdjk.
 
-4. Title
+3. Title
+
 Judul dari link yang disimpan. Bisa otomatis diambil dari situs, atau diketik manual. Judul memudahkan identifikasi isi link tanpa harus membukanya.
 
-5. Description
+4. Description
+
 Tempat untuk menuliskan penjelasan singkat tentang isi link atau alasan menyimpannya.
 
-6. Notes (opsional)
+5. Notes (opsional)
+
 Dapat digunakan untuk menambahkan catatan pribadi seperti ringkasan atau ide penting dari link tersebut.
 
-7. Mark as Unread
+6. Mark as Unread
+
 Jika dicentang, link akan ditandai sebagai belum dibaca (unread). Linkding menyediakan filter agar pengguna bisa menampilkan hanya link yang belum dibaca.
 
-8. Tombol Save & Cancel
+7. Tombol Save & Cancel
 - Save → Menyimpan link ke dalam sistem Linkding.
 - Cancel → Membatalkan proses penyimpanan dan kembali ke halaman sebelumnya.
 
 <img width="273" height="268" alt="image" src="https://github.com/user-attachments/assets/80e58afa-9d67-432f-96b3-19914874e711" />
 
-### Menu bookmark
+### Menu bookmarks
 berfungsi untuk mengelola dan memfilter tautan (link) yang sudah disimpan oleh pengguna.
 
 1. Active
+
 Menampilkan semua bookmark yang masih aktif atau belum diarsipkan. Ini adalah tampilan utama yang biasa digunakan untuk melihat semua link yang masih relevan.
 
 Contoh penggunaan:
 pengguna baru saja menyimpan artikel penting untuk tugas kuliah, dan ingin melihatnya lagi di daftar utama.
 
 2. Archived
+
 Berisi bookmark yang sudah disimpan tetapi tidak lagi dibutuhkan secara aktif. Cocok untuk menjaga tampilan utama tetap rapi tanpa menghapus link lama. Bookmark yang diarsipkan masih bisa dikembalikan ke status aktif jika dibutuhkan.
 
 Contoh penggunaan:
 Artikel yang sudah selesai dibaca atau digunakan dalam proyek, tetapi tetap ingin disimpan sebagai referensi.
 
 3. Unread
+
 Menampilkan bookmark yang sudah disimpan namun belum dibaca atau dibuka oleh pengguna. Fitur ini memudahkan pengguna untuk menyortir link yang perlu ditinjau nanti.
 
 Contoh penggunaan:
 Pengguna menandai beberapa artikel riset dengan “Mark as unread” supaya mudah ditemukan untuk dibaca nanti.
 
 4. Untagged
+
 Menampilkan semua bookmark yang belum memiliki tag (belum dikategorikan). Berguna untuk melakukan pengelolaan ulang agar semua link punya kategori/tag yang sesuai.
 
 Contoh penggunaan:
@@ -254,7 +264,10 @@ Secara keseluruhan, Linkding merupakan pilihan ideal bagi pengguna yang ingin me
 
 ## Referensi
 https://hub.docker.com/r/sissbruecker/linkding
+
 https://linkwarden.app/
+
 https://github.com/shaarli/Shaarli
+
 https://linkding.link/
 
