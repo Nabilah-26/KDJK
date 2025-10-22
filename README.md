@@ -50,7 +50,7 @@
 
    Setelah selesai, Railway akan menjalankan image tersebut di dalam **container sandbox** miliknya.
 
-I8. Setelah image berhasil dimuat, buka tab **Variables**.  
+8. Setelah image berhasil dimuat, buka tab **Variables**.  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/756851fd-bd69-4fc5-b614-7a9ec44fb369" alt="Langkah 9" width="45%" />
@@ -94,20 +94,53 @@ gunicorn linkding.wsgi:application --bind 0.0.0.0:${LD_PORT:-9090}
 ```
 - `set -e` → menghentikan eksekusi jika ada perintah yang gagal.  
 - `python manage.py migrate` → menjalankan migrasi database.
-  ketika migrasi dijalankan, 
+  Ketika migrasi dijalankan, Django membuat tabel seperti ini sebagai database internal linkding sesuai file: linkding/bookmarks/models.py
   ```python
-from django.db import models
+  from django.db import models
 
-class Bookmark(models.Model):
+  class Bookmark(models.Model):
     url = models.URLField()
     title = models.CharField(max_length=255)
     description = models.TextField(blank=True)
     date_added = models.DateTimeField(auto_now_add=True)
+  ```
+- `createinitialsuperuser` → membuat akun admin pertama secara otomatis.
+  Railway akan menjalankan kode dari file: linkding/bookmarks/management/commands/create_initial_superuser.py
+  ```python
+  from django.contrib.auth import get_user_model
+  from django.core.management.base import BaseCommand
+  import os
 
-- `createinitialsuperuser` → membuat akun admin pertama secara otomatis.  
-- `collectstatic` → mengumpulkan file statis Django.  
-- `gunicorn ...` → menjalankan server aplikasi Linkding. 
+  class Command(BaseCommand):
+    def handle(self, *args, **options):
+        User = get_user_model()
+        username = os.getenv('LD_SUPERUSER_NAME')
+        password = os.getenv('LD_SUPERUSER_PASSWORD')
 
+        if not User.objects.filter(username=username).exists():
+            User.objects.create_superuser(username=username, password=password)
+            self.stdout.write(f"Superuser {username} created.")
+  ```
+- `collectstatic` → mengumpulkan file statis Django.
+  Semua file statis (CSS, JS, gambar) dari semua app Django dikumpulkan ke folder /staticfiles.
+  Contoh di kode settings.py:
+  ```python
+  STATIC_URL = '/static/'
+  STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+  ```
+- `gunicorn ...` → menjalankan server aplikasi Linkding.
+  Setelah setup selesai, image menjalankan server produksi Gunicorn, bukan runserver bawaan Django (yang hanya untuk development).
+  Kode yang dijalankan Gunicorn berasal dari linkding/wsgi.py:
+```python
+import os
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'linkding.settings')
+application = get_wsgi_application()
+```
+Fungsi get_wsgi_application():
+- Membuat instance WSGI Application Django (objek Python callable).
+- Gunicorn akan memanggil objek ini setiap kali ada request HTTP masuk.
 12. Setelah di-update, akan muncul notifikasi di kiri atas.
     
 <p align="center">
