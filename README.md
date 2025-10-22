@@ -168,7 +168,7 @@ application = get_wsgi_application()
   Host: linkding-production.up.railway.app
   ```
 - Railway Proxy menerima request itu, lalu meneruskannya ke container aplikasi (port 9090).
-- Gunicorn (server WSGI) menerima request dari proxy dan meneruskan ke:
+- Gunicorn (server WSGI) menerima request dari proxy dan meneruskan ke: linkding.wsgi.application
 - Django memproses request: Mengecek urls.py → menemukan bahwa URL / diarahkan ke bookmark_list().
 - View Function (views.py) dijalankan: Mengambil semua data dari model Bookmark & mengirim data tersebut ke template bookmarks/bookmark_list.html.
 - Template Engine membuat halaman HTML berdasarkan data bookmark.
