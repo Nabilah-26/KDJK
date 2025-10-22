@@ -73,7 +73,7 @@ I8. Setelah image berhasil dimuat, buka tab **Variables**.
 </p>
 
 11. Tekan tombol **Update Variables** (berwarna biru).
-Railway membuat container baru dari image tersebut dan memasukkan semua environment variables (diisi di raw editor dalam env) ke dalam konteks runtime container.
+Railway membuat container baru dari image tersebut dan memasukkan semua environment variables (yang diisi di raw editor dalam env) ke dalam konteks runtime container.
 Ketika container hidup,  docker image akan menjalanka entrypoint.
 Dalam linkding entrypointnya berisi:
 ```sh
@@ -93,7 +93,17 @@ echo "Starting application..."
 gunicorn linkding.wsgi:application --bind 0.0.0.0:${LD_PORT:-9090}
 ```
 - `set -e` → menghentikan eksekusi jika ada perintah yang gagal.  
-- `python manage.py migrate` → menjalankan migrasi database.  
+- `python manage.py migrate` → menjalankan migrasi database.
+  ketika migrasi dijalankan, 
+  ```python
+from django.db import models
+
+class Bookmark(models.Model):
+    url = models.URLField()
+    title = models.CharField(max_length=255)
+    description = models.TextField(blank=True)
+    date_added = models.DateTimeField(auto_now_add=True)
+
 - `createinitialsuperuser` → membuat akun admin pertama secara otomatis.  
 - `collectstatic` → mengumpulkan file statis Django.  
 - `gunicorn ...` → menjalankan server aplikasi Linkding. 
