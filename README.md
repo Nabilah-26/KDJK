@@ -161,8 +161,18 @@ application = get_wsgi_application()
    Contoh: https://linkding-production.up.railway.app → 172.17.0.3:9090
    Railway menggunakan reverse proxy (seperti Nginx internal) untuk meneruskan traffic dari domain ke container Gunicorn.
 16.  **Link Hosting Linkding berhasil dideploy!**
-    
-
+    Saat link dibuka:
+- Browser mengirimkan HTTP request ke Railway:
+  ```http
+  GET / HTTP/1.1
+  Host: linkding-production.up.railway.app
+  ```
+- Railway Proxy menerima request itu, lalu meneruskannya ke container aplikasi (port 9090).
+- Gunicorn (server WSGI) menerima request dari proxy dan meneruskan ke:
+- Django memproses request: Mengecek urls.py → menemukan bahwa URL / diarahkan ke bookmark_list().
+- View Function (views.py) dijalankan: Mengambil semua data dari model Bookmark & mengirim data tersebut ke template bookmarks/bookmark_list.html.
+- Template Engine membuat halaman HTML berdasarkan data bookmark.
+- Response dikirim kembali ke browser → halaman utama Linkding berisi daftar bookmark muncul.
 
 ## Fitur/Penggunaan App
 <img width="1475" height="551" alt="image" src="https://github.com/user-attachments/assets/e5c2328f-ca04-4030-a28e-fec01795ce01" />
