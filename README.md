@@ -40,8 +40,17 @@
   <img src="https://github.com/user-attachments/assets/faa826f2-193e-494c-b995-4286e62e50eb" alt="Langkah 8" width="45%" />
 </p>
 
-7. Tunggu hingga Railway memuat Docker image Linkding.  
-8. Setelah image berhasil dimuat, buka tab **Variables**.  
+7. Tunggu hingga Railway memuat **Docker image Linkding**.  
+
+   Isi image yang diunduh terdiri dari:
+   -  **Python runtime**
+   -  **Kode Django Linkding**
+   -  **Dependency (library Python)**
+   -  **Entrypoint script** (`/entrypoint.sh`)
+
+   Setelah selesai, Railway akan menjalankan image tersebut di dalam **container sandbox** miliknya.
+
+I8. Setelah image berhasil dimuat, buka tab **Variables**.  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/756851fd-bd69-4fc5-b614-7a9ec44fb369" alt="Langkah 9" width="45%" />
@@ -82,6 +91,7 @@
 15. Pada bagian **Networking**, tekan tombol **Generate Domain** untuk membuat link situs.  
 16.  **Link Hosting Linkding berhasil dideploy!**
 
+
 ## Fitur/Penggunaan App
 <img width="1475" height="551" alt="image" src="https://github.com/user-attachments/assets/e5c2328f-ca04-4030-a28e-fec01795ce01" />
 
@@ -92,7 +102,6 @@ Pada halaman ini terdapat dua input utama dan satu tombol aksi:
 - Tombol Login – mengeksekusi proses autentikasi agar pengguna bisa masuk ke sistem.
 
 <img width="1519" height="740" alt="image" src="https://github.com/user-attachments/assets/5599a19f-83f2-4f64-8257-20a58e409e7d" />
-
 ### Homepage
 1. Bookmark
 
