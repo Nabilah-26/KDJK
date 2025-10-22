@@ -160,7 +160,7 @@ application = get_wsgi_application()
    Railway secara otomatis membaca variabel PORT (atau LD_PORT) dan membuat network mapping: [Public URL] → [Container IP:PORT]  
    Contoh: https://linkding-production-d3b0.up.railway.app → 172.17.0.3:9090  
    Railway menggunakan reverse proxy (seperti Nginx internal) untuk meneruskan traffic dari domain ke container Gunicorn.  
-16.  **Link Hosting Linkding berhasil dideploy!**
+16.  **Link Hosting Linkding berhasil dideploy!**  
     Saat link dibuka:
 - Browser mengirimkan HTTP request ke Railway:
   ```http
