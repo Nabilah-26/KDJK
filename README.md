@@ -138,9 +138,9 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'linkding.settings')
 application = get_wsgi_application()
 ```
-Fungsi get_wsgi_application():
-- Membuat instance WSGI Application Django (objek Python callable).
-- Gunicorn akan memanggil objek ini setiap kali ada request HTTP masuk.
+  Fungsi get_wsgi_application():
+  - Membuat instance WSGI Application Django (objek Python callable).
+  - Gunicorn akan memanggil objek ini setiap kali ada request HTTP masuk.
 12. Setelah di-update, akan muncul notifikasi di kiri atas.
     
 <p align="center">
@@ -156,8 +156,12 @@ Fungsi get_wsgi_application():
   <img src="https://github.com/user-attachments/assets/70c94e7e-60d0-4214-a1e8-2ca01864b29b" alt="Langkah 16" width="45%" />
 </p>
 
-15. Pada bagian **Networking**, tekan tombol **Generate Domain** untuk membuat link situs.  
+15. Pada bagian **Networking**, tekan tombol **Generate Domain** untuk membuat link situs.
+   Railway secara otomatis membaca variabel PORT (atau LD_PORT) dan membuat network mapping: [Public URL] → [Container IP:PORT]
+   Contoh: https://linkding-production.up.railway.app → 172.17.0.3:9090
+   Railway menggunakan reverse proxy (seperti Nginx internal) untuk meneruskan traffic dari domain ke container Gunicorn.
 16.  **Link Hosting Linkding berhasil dideploy!**
+    
 
 
 ## Fitur/Penggunaan App
