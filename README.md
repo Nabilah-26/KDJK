@@ -307,11 +307,6 @@ Menampilkan semua bookmark yang belum memiliki tag (belum dikategorikan). Bergun
 Contoh penggunaan:
 Setelah menyimpan banyak link cepat-cepat, pengguna bisa buka menu ini untuk menambahkan tag pada yang belum dikategorikan.
 
-## Pembahasan
-Linkding adalah sebuah aplikasi web yang bersifat open-source, dirancang untuk mengelola dan menyimpan tautan atau bookmark. Fungsinya serupa dengan layanan seperti "Pocket" atau "Raindrop. io", tetapi Linkding memungkinkan pengguna untuk dipasang di server mereka sendiri atau di lingkungan seperti Docker dan Railway. Aplikasi ini memberikan kemampuan kepada penggunanya untuk dengan cepat dan efisien menyimpan, memberi tag, mencari, dan mengatur koleksi tautan dari berbagai sumber. Selanjutnya, Linkding memiliki antarmuka yang sederhana dan ringan, menjadikannya pilihan tepat untuk individu maupun tim kecil yang ingin mengarsipkan referensi secara online.
-
-Saya percaya bahwa Linkding adalah solusi yang cocok bagi pengguna yang ingin melakukan pengelolaan bookmark secara mandiri tanpa tergantung pada layanan berbayar. Aplikasi ini menciptakan keseimbangan antara kesederhanaan tampilan, kecepatan, dan fitur-fitur esensial yang diperlukan pengguna sehari-hari, seperti penandaan, pencarian cepat, serta ekstensi browser untuk menambah tautan secara langsung. Selain itu, dengan sifat open-source nya, aplikasi ini dapat dengan mudah disesuaikan dan dimodifikasi sesuai kebutuhan pengguna. Namun, pengguna yang kurang berpengalaman mungkin menemukan bahwa instalasi awal bisa menjadi agak rumit karena perlu konfigurasi Docker, database, atau variabel lingkungan.
-
 ### Kelebihan Linkding
 
 1. **Open-source dan gratis** – Linkding dapat dimanfaatkan tanpa pembayaran lisensi serta disesuaikan berdasarkan kebutuhan pengguna.
